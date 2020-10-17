@@ -96,6 +96,8 @@ header li{
 	margin-left: -6px;
 }
 
+
+
 @media (max-width: 480px) {
 	.navbar-brand{
         font-size: 1.6em;
@@ -112,6 +114,21 @@ header li{
     }
     #intro p{
         font-size: 20px;
+    }
+    #intro .btn{
+        background: #25bd07ef;
+        color: white;
+        font-size: 15px;
+        font-weight: 550;
+        padding: 2px 16px;
+        border-radius: 20px;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 1200px) {
+    #intro p{
+        font-size: 20px;
+        margin-top: 12px;
     }
     #intro .btn{
         background: #25bd07ef;

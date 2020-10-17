@@ -18,13 +18,13 @@ header li{
 /*   nav  */
 .nav li:hover:nth-child(8n+2),
 .nav li.active:nth-child(8n+2) {
-    border-top: #000000 3px solid; /* 指定標籤上方顏色 */
-	color: #030303;
+    border-top: #25bd07ef 3px solid; /* 指定標籤上方顏色 */
+	color: #25bd07ef;
 }
 .nav li:hover:nth-child(8n+3),
 .nav li.active:nth-child(8n+3) {
-    border-top: #000000 3px solid; /* 指定標籤上方顏色 */
-	color: #030303;
+    border-top: #25bd07ef 3px solid; /* 指定標籤上方顏色 */
+	color: #25bd07ef;
 }
 .navbar-current-page {
     color: #000000; /* 首頁按鈕顏色 */

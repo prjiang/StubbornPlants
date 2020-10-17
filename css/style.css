@@ -128,7 +128,6 @@ header li{
 @media (max-width: 1200px) {
     #intro p{
         font-size: 20px;
-        margin-top: 12px;
     }
     #intro .btn{
         background: #25bd07ef;

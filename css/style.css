@@ -1,0 +1,125 @@
+body{
+    font-family: Times, serif;
+}
+img{
+    height: 100px;
+    width: 150px;
+}
+
+
+
+/*   header  */
+header li{
+    margin: 0 10px;
+}
+
+
+
+/*   nav  */
+.nav li:hover:nth-child(8n+2),
+.nav li.active:nth-child(8n+2) {
+    border-top: #000000 3px solid; /* 指定標籤上方顏色 */
+	color: #030303;
+}
+.nav li:hover:nth-child(8n+3),
+.nav li.active:nth-child(8n+3) {
+    border-top: #000000 3px solid; /* 指定標籤上方顏色 */
+	color: #030303;
+}
+.navbar-current-page {
+    color: #000000; /* 首頁按鈕顏色 */
+    font-size: 18px;
+    padding: 2px;
+}
+
+
+
+/*   intro   */
+#intro .container{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-80%);
+}
+#intro .jumbotron{
+    height: 40vh;
+    background-size: contain;
+}
+#intro h1{
+    font-size: 40px;
+    font-weight: 550;
+    line-height: 1.5;
+}
+#intro p{
+    font-size: 25px;
+    font-weight: 550;
+}
+#intro .btn{
+    background: #25bd07ef;
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+    padding: 2px 16px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+
+
+
+/*   content  */
+.li-title{
+    font-weight: 550;
+    letter-spacing: .1875rem;
+	/* lititle左方標註 */
+	padding-left: 8px;
+	border-left: 3px solid #000;
+	font-size: 1.2em;
+    margin-top: 4px;
+}
+.li-content{
+    font-size: 1.2em;
+    font-weight: 550;
+    letter-spacing: .1875rem;
+    margin-top: 4px;
+}
+.information{
+    font-size: 1em;
+    font-weight: 550;
+    letter-spacing: .1875rem;
+    margin-top: 2px;
+    margin-left: 20px;
+}
+.line{
+	border-top: 1.8px solid #d8d8d8 ;
+	width: auto;margin:10px;
+	margin-left: -6px;
+}
+
+@media (max-width: 480px) {
+	.navbar-brand{
+        font-size: 1.6em;
+        margin-left: 95px;
+    }
+    .li-content{
+        margin-top: 10px;
+    }
+    #intro .jumbotron{
+        background-size: cover;
+    }
+    #intro h1{
+        font-size: 30px;
+    }
+    #intro p{
+        font-size: 20px;
+    }
+    #intro .btn{
+        background: #25bd07ef;
+        color: white;
+        font-size: 15px;
+        font-weight: 550;
+        padding: 2px 16px;
+        border-radius: 20px;
+        margin-bottom: 5px;
+    }
+}

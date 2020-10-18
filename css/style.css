@@ -68,6 +68,11 @@ header li{
     border-radius: 20px;
     margin-bottom: 8px;
 }
+#intro .btn:hover,
+#intro .btn.active{
+    background-color: white;
+    color: #25bd07ef;
+}
 
 
 

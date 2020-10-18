@@ -9,8 +9,12 @@ img{
 
 
 /*   header  */
+header ul{
+    margin: 0 18px;
+    margin-left: 50%;
+}
 header li{
-    margin: 0 10px;
+    margin: 0 14px;
 }
 
 
@@ -126,6 +130,12 @@ header li{
     }
 }
 @media (max-width: 1200px) {
+    header ul{
+        margin: 0px;
+    }
+    header li{
+        margin: 0px;
+    }
     #intro p{
         font-size: 20px;
     }

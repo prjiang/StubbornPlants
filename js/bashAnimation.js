@@ -14,7 +14,7 @@ function frameLooper() {
         doneShowingText = true;
         // console.log("done");
     }
-    loopTimer = setTimeout('frameLooper()', 75);
+    loopTimer = setTimeout('frameLooper()', 100);
 }
 
 

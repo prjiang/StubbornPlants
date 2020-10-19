@@ -73,6 +73,13 @@ header li{
     background-color: white;
     color: #25bd07ef;
 }
+#myTypingText{
+    font-size: 25px;
+    font-weight: 550;
+    font-family: Papyrus,montserrat,Helvetica,sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 6px;
+}
 
 
 

@@ -118,6 +118,7 @@ header li{
 	.navbar-brand{
         font-size: 1.6em;
         margin-left: 95px;
+	margin-left: 100px;
     }
     .li-content{
         margin-top: 10px;

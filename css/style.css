@@ -141,6 +141,9 @@ header li{
         border-radius: 20px;
         margin-bottom: 5px;
     }
+    #myTypingText{
+	font-size: 11px;
+    }
 }
 @media (max-width: 991px) {
     header ul{

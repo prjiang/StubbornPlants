@@ -45,6 +45,9 @@ header li{
     font-size: 18px;
     padding: 2px;
 }
+.nav{
+    align-items: flex-start;
+}
 
 
 

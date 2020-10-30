@@ -11,7 +11,7 @@ img{
 /*   header  */
 header ul{
     margin: 0 18px;
-    margin-left: 50%;
+    margin-left: 40%;
 }
 header li{
     margin: 0 14px;
@@ -27,6 +27,11 @@ header li{
 }
 .nav li:hover:nth-child(8n+3),
 .nav li.active:nth-child(8n+3) {
+    border-top: #25bd07ef 3px solid; /* 指定標籤上方顏色 */
+	color: #25bd07ef;
+}
+.nav li:hover:nth-child(8n+4),
+.nav li.active:nth-child(8n+4) {
     border-top: #25bd07ef 3px solid; /* 指定標籤上方顏色 */
 	color: #25bd07ef;
 }

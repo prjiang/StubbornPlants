@@ -51,6 +51,7 @@ header li{
 }
 .nav{
     align-items: flex-start;
+    display: block;
 }
 
 

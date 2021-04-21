@@ -52,7 +52,7 @@ header li{
 }
 
 .navbar-current-page {
-    color: #25bd07ef; /* 首頁按鈕顏色 */
+    color: #000000; /* 首頁按鈕顏色 */
     font-size: 18px;
     /*padding: 2px;*/
 }
